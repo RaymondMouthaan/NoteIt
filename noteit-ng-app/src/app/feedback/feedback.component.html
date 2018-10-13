@@ -18,7 +18,7 @@
           <!-- input validation group -->
           <div *ngIf="f.submitted && name.invalid" class="invalid-input">
             <!-- individual validation errors -->
-            <div *ngIf="name.errors?.required">Field is required</div>
+            <div *ngIf="name.errors?.required">Field is required!</div>
           </div>
         </div>
         <!-- Email -->
@@ -37,8 +37,8 @@
           <!-- input validation group -->
           <div *ngIf="f.submitted && email.invalid" class="invalid-input">
             <!-- individual validation errors -->
-            <div *ngIf="email.errors?.required">Field is required</div>
-            <div *ngIf="email.errors?.email">Field is not a valid email</div>
+            <div *ngIf="email.errors?.required">Field is required!</div>
+            <div *ngIf="email.errors?.email">Field is not a valid email!</div>
           </div>
         </div>
 
@@ -60,8 +60,8 @@
           <!-- input validation group -->
           <div *ngIf="f.submitted && feedback.invalid" class="invalid-input">
             <!-- individual validation errors -->
-            <div *ngIf="feedback.errors?.required">Field is required</div>
-            <div *ngIf="feedback.errors?.minlength">Field is too small (try 10 characters)</div>
+            <div *ngIf="feedback.errors?.required">Field is required!</div>
+            <div *ngIf="feedback.errors?.minlength">Field is too small (try a minimum of 10 characters)!</div>
           </div>
         </div>
 
