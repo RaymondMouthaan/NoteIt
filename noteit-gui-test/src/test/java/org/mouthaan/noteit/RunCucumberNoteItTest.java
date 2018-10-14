@@ -6,9 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {},
-        features = {},
-        glue = {}
+        //this code will only look into "features/" folder for features
+        features = {"classpath:features/"},
+        glue = {"org.mouthaan.noteit.steps", "org.mouthaan.noteit.hooks"},
+        plugin = {"pretty", "html:target/cucumber-reports/htmp-report", "json:target/cucumber-reports/cucumber.json"},
+        tags = {"@working"}
 )
 public class RunCucumberNoteItTest {
 
