@@ -15,4 +15,5 @@ Angular 6 (noteit-ng-app) and Spring Boot application (noteit-api) based on [Rom
 - [[Angular 6 + Spring Boot] #12 Angular Form Validation](https://www.youtube.com/watch?v=wthdZDOxJ10&t=18s)
 - [[Angular 6 + Spring Boot] #13 Debugging Angular Applications](https://www.youtube.com/watch?v=b2gboBOoc88)
 - [[Angular 6 + Spring Boot] #14 Fetch Data Using HTTP in Angular](https://www.youtube.com/watch?v=S2TWHtcypc4)
+- [[Angular 6 + Spring Boot] #15 Angular Services](https://www.youtube.com/watch?v=71rEyCehtFA&t=2s)
 - More to come ...
