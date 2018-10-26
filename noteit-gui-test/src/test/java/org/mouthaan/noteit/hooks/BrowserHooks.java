@@ -8,6 +8,7 @@ public class BrowserHooks {
 
     @Before
     public void setup() {
+        Configuration.browser = "safari";
         Configuration.baseUrl = "http://localhost:4200";
     }
 }

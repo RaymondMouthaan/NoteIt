@@ -12,18 +12,31 @@
     <name>noteit-gui-test</name>
     <description>Demo project for Spring Boot</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>io.cucumber</groupId>-->
+            <!--<artifactId>cucumber-java</artifactId>-->
+            <!--<version>4.0.1</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>2.1.0</version>
+            <artifactId>cucumber-java8</artifactId>
+            <version>4.0.1</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>2.1.0</version>
+            <version>4.0.1</version>
             <scope>test</scope>
         </dependency>
 
@@ -38,12 +51,7 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.25</version>
         </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>2.1.0</version>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <build>

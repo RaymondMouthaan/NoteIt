@@ -4,26 +4,26 @@ import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class NoteItFeedbackPage {
+public class FeedbackPage {
     private SelenideElement firstName = $("#name");
     private SelenideElement email = $("#email");
     private SelenideElement feedback = $("#feedback");
-    private SelenideElement btnSendFeedback = $(".btn");
+    private SelenideElement sendFeedback = $(".btn");
 
 
-    public void enterFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName.setValue(firstName);
     }
 
-    public void enterEmail(String email) {
+    public void setEmail(String email) {
         this.email.setValue(email);
     }
 
-    public void enterFeedback(String feedback) {
+    public void setFeedback(String feedback) {
         this.feedback.setValue(feedback);
     }
 
-    public void clickBtnSendFeedback() {
-        this.btnSendFeedback.click();
+    public void clickSendFeedback() {
+        this.sendFeedback.click();
     }
 }
