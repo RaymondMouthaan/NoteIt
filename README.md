@@ -17,4 +17,7 @@ Angular 6 (noteit-ng-app) and Spring Boot application (noteit-api) based on [Rom
 - [[Angular 6 + Spring Boot] #14 Fetch Data Using HTTP in Angular](https://www.youtube.com/watch?v=S2TWHtcypc4)
 - [[Angular 6 + Spring Boot] #15 Angular Services](https://www.youtube.com/watch?v=71rEyCehtFA&t=2s)
 - [[Angular 6 + Spring Boot] #16 Putting it all together 1](https://www.youtube.com/watch?v=P8S-Ry0EXE0)
+- [[Angular 6 + Spring Boot] #17 Putting it all together 2](https://www.youtube.com/watch?v=vxV-VN9yC_0&t=23s)
+- [[Angular 6 + Spring Boot] #18 Complex Angular Components (Parent-Child)](https://www.youtube.com/watch?v=AL0ceh-UKkE)
+- [[Angular 6 + Spring Boot] #19 Angular Component Communication Using @Input and @Output](https://www.youtube.com/watch?v=Pu87vvebtxE&t=0s)
 - More to come ...
