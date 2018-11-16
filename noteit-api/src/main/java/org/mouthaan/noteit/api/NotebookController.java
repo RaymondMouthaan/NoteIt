@@ -30,7 +30,7 @@ public class NotebookController {
 
     @GetMapping("/all")
     public List<Notebook> all() {
-        var allCategories = this.notebookRepository.findAll();
+        List<Notebook> allCategories = this.notebookRepository.findAll();
         return allCategories;
     }
 
@@ -40,7 +40,7 @@ public class NotebookController {
             throw new ValidationException();
         }
 
-        var notebookEntity = this.mapper.convertToNotebookEntity(notebookViewModel);
+        Notebook notebookEntity = this.mapper.convertToNotebookEntity(notebookViewModel);
 
         // save notebook instance to db
         this.notebookRepository.save(notebookEntity);
