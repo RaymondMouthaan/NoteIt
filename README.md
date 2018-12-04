@@ -20,4 +20,7 @@ Angular 6 (noteit-ng-app) and Spring Boot application (noteit-api) based on [Rom
 - [[Angular 6 + Spring Boot] #17 Putting it all together 2](https://www.youtube.com/watch?v=vxV-VN9yC_0&t=23s)
 - [[Angular 6 + Spring Boot] #18 Complex Angular Components (Parent-Child)](https://www.youtube.com/watch?v=AL0ceh-UKkE)
 - [[Angular 6 + Spring Boot] #19 Angular Component Communication Using @Input and @Output](https://www.youtube.com/watch?v=Pu87vvebtxE&t=0s)
+- [[Angular 6 + Spring Boot] #20 Angular Pipes](https://www.youtube.com/watch?v=0X0mG4bFADw)
+- [[Angular 6 + Spring Boot] #21 Angular Custom Pipe (Filter)](https://www.youtube.com/watch?v=0-Jng7fqSRQ&list=PLVApX3evDwJ2keNFsQ4PhA1yVaXpto2oN&index=21)
+- [[Angular 6 + Spring Boot] #22 Introduction to Angular Testing](https://www.youtube.com/watch?v=UlCUI3gKYIg&t=9s)
 - More to come ...
